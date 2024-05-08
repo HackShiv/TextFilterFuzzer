@@ -1,4 +1,4 @@
-# Textfuzzer
+# TextFilterFuzzer
 TextFilterFuzzer For Directory Fuzzing - filter for (e.g, Not Found, 404, Not Accepted) Simple but very effective to use. 
 
 # Usage
