@@ -17,3 +17,6 @@ Because from my experience when I'm using ffuf or any other tool for fuzzing, I 
 
 If you find simple yet effective tool useful or interesting. Do consider a star and follow on github ;)
 
+# Donations ❤️
+<a href="https://www.buymeacoffee.com/hackshiv" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
