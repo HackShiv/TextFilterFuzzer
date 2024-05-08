@@ -3,8 +3,11 @@ TextFilterFuzzer For Directory Fuzzing - filter for (e.g, Not Found, 404, Not Ac
 
 # Usage
 python3 textfuzzer.py
+
 Enter URL: https://evil.com
+
 Enter the path to the wordlist file: /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt
+
 Enter the filter text separated by comma (e.g., 'Not Found,406 Not Allowed'): Not Found, 404, Not Accepted
 
 Now only URLs will printed to the terminal that don't match the "Not Found" for example with status code.
