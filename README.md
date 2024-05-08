@@ -15,5 +15,5 @@ Now only URLs will printed to the terminal that don't match the "Not Found", "40
 # Why?
 Because from my experience when I'm using ffuf or any other tool for fuzzing, I can only exclude by code and size but sometimes the webpage may have the same code, size and content length but displays something different on the webpage itself, so this tool is designed to filter out the text directly from the webpage so you may find something that wasn't discovered using ffuf. ;)
 
-Also star this if you find it useful. Thanks.
+If you find simple yet effective tool useful or interesting. Do consider a star and follow on github ;)
 
