@@ -19,6 +19,11 @@ Because from my experience when I'm using ffuf or any other tool for fuzzing, I 
 
 https://github.com/HackShiv/TextFilterFuzzer/assets/107373873/27075dcc-d188-4aae-8ed5-4a0801a1abd4
 
+# Next steps
+- To add FUZZ option
+
+- To make it faster with larger wordlists   
+
 If you find this simple tool useful or interesting. Do consider a star and follow on my github ;)
 
 # Donations ❤️
