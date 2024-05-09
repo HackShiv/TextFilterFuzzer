@@ -8,12 +8,16 @@ Enter URL: https://evil.com
 
 Enter the path to the wordlist file: /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt
 
-Enter the filter text separated by comma (e.g., 'Not Found,406 Not Allowed'): Not Found, 404, Not Accepted
+Enter the filter text separated by comma (e.g., 'Not Found,406 Not Accepted'): Not Found, 404, Not Accepted
 
 Now only URLs will printed to the terminal that don't match the "Not Found", "404, "Not Accepted" with the status code.
 
 # Why?
-Because from my experience when I'm using ffuf or any other tool for fuzzing, I can only exclude by code and size but sometimes the webpage may have the same code, size and content length but displays something different on the webpage itself, so this tool is designed to filter out the text directly from the webpage so you may find something that wasn't discovered using ffuf. ;)
+Because from my experience when I'm using ffuf or any other tool for fuzzing, I can only exclude by code and size but sometimes the webpage may have the same code, size and content length but displays something different on the webpage itself, so this tool is designed to filter out the text directly from the webpage so you may find something that wasn't discovered using ffuf or feroxbuster. ;)
+
+# PoC Demo - My tool vs ffuf in action (also wins against feroxbuster)
+
+https://github.com/HackShiv/TextFilterFuzzer/assets/107373873/27075dcc-d188-4aae-8ed5-4a0801a1abd4
 
 If you find simple yet effective tool useful or interesting. Do consider a star and follow on github ;)
 
