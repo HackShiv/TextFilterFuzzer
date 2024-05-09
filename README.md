@@ -1,5 +1,5 @@
 # TextFilterFuzzer
-TextFilterFuzzer For Directory Fuzzing - filter for (e.g, Not Found, 404, Not Accepted) Simple but very effective to use. 
+Find Endpoints and URLs ffuf is not. TextFilterFuzzer For Directory Fuzzing - filter for (e.g, Not Found, 404, Not Accepted) Simple but very effective to use. 
 
 # Usage
 python3 textfuzzer.py
